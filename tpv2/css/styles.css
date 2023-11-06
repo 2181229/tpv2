@@ -1,0 +1,473 @@
+/* Thème de couleurs */
+@import url(theme.css);
+
+/* Générique */
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: clamp(18px, 2vw, 24px);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans';
+}
+
+a,
+a:active,
+a:visited,
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* Conteneur */
+.conteneur {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+
+/* Barre du haut */
+nav.barre-haut {
+	font-size: 0.9rem;
+	background-color: var(--clr-fond-principale);
+	color: var(--clr-texte-tertiaire);
+}
+
+nav.barre-haut {
+	margin: 0;
+	padding: 0.5rem;
+	padding-right: 0.5rem;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav.barre-haut a {
+	list-style: none;
+	text-align: center;
+	width: 2rem;
+	margin: 0 0.2rem;
+	padding: 0.2rem;
+	border: 1px solid var(--clr-bordure-secondaire);
+	background-color: var(--clr-fond-tertiaire);
+	border-radius: 0.3rem;
+}
+
+nav.barre-haut a.actif {
+	background-color: var(--clr-fond-actif);
+	color: var(--clr-texte-secondaire);
+}
+
+/* Barre du logo, de recherche, et panier */
+.barre-logo {
+	width: 80%;
+	margin: 0.5rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	column-gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+.barre-logo .logo img {
+	width: clamp(125px, 25vw, 250px);
+}
+
+.barre-logo .recherche {
+	width: 100%;
+	flex-grow: 1;
+	height: 50px;
+	border: 1px solid var(--clr-fond-tertiaire);
+	border-radius: 50px;
+	padding: 0 1rem;
+	font-size: 1rem;
+}
+
+.barre-logo .panier {
+	font-size: 1.5rem;
+}
+
+.barre-logo .burger {
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+/* Navigation principale */
+#cc-btn-responsive {
+	display: none;
+}
+
+nav.principale {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	translate: -100%;
+	background-color: var(--clr-fond-menu-responsive);
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	row-gap: 1.5rem;
+	padding: 1rem;
+}
+
+#cc-btn-responsive:checked+nav.principale {
+	display: flex;
+	translate: 0;
+}
+
+nav.principale .menu-controle {
+	text-align: right;
+	width: 100%;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+
+nav.principale .separateur {
+	width: 100%;
+	height: 2px;
+	background-color: var(--clr-fond-principale);
+}
+
+nav.principale a.actif {
+	border-bottom: 3px solid var(--clr-fond-actif);
+}
+
+/* Main : Toutes les pages */
+main {
+	flex-grow: 1;
+	width: 95vw;
+	margin: 2rem auto;
+}
+
+/* Main : Page d'accueil */
+main.page-accueil .amorce {
+	background-image: url(../images/accueil.jpg);
+	background-size: cover;
+	background-position: 100% 60%;
+	padding: 3rem;
+	text-align: center;
+	color: var(--clr-texte-secondaire);
+}
+
+main.page-accueil .amorce h1 {
+	font-size: clamp(1.5rem, 4vw, 4rem);
+	margin: auto;
+}
+
+main.page-accueil .amorce h2 {
+	font-size: clamp(1rem, 2vw, 2rem);
+}
+
+main.page-accueil .principal {
+	margin: 1rem auto;
+	width: 90vw;
+}
+
+/* Main : Page Teeshirts/Casquettes/Hoodies */
+main.page-produits .amorce {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+main.page-produits .amorce .controle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 0.75rem;
+	font-size: 0.9rem;
+}
+
+main.page-produits .amorce .controle>div {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+main.page-produits .amorce .controle select {
+	margin-left: 0.5rem;
+	padding: 0.5rem 3rem 0.5rem 0.5rem;
+	border-radius: 1rem;
+}
+
+/***** TP/Volet 1 : Mobile *****/
+/* panier d'achats */
+main.page-panier .amorce {
+	text-align: center;
+}
+
+main.page-panier .principal img{
+	width: 75px;
+	height: 75px;
+}
+
+main.page-panier .principal .nombre {
+	text-align: center;
+	width: 50px;
+	border: 1px solid black;
+}
+
+main.page-panier .principal .articleAchatUn {
+	border-bottom: 2px dotted grey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+main.page-panier .principal .articleAchatUn .nomArticle {
+	margin-left: 10px;
+}
+
+main.page-panier .principal .articleAchatUn .premiereRangee {
+	display: flex;
+	flex-direction: row;
+}
+
+main.page-panier .principal .articleAchatUn .deuxiemeRangee .carreVert {
+	width: 20px;
+	height: 20px;
+	background-color: rgb(48, 185, 121);
+}
+
+main.page-panier .principal .articleAchatUn .deuxiemeRangee {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main.page-panier .principal .articleAchatDeux {
+	margin-top: 10px;
+	border-bottom: 2px solid black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+main.page-panier .principal .articleAchatDeux .nomArticle {
+	margin-left: 10px;
+}
+
+main.page-panier .principal .articleAchatDeux .premiereRangee {
+	display: flex;
+	flex-direction: row;
+}
+
+main.page-panier .principal .articleAchatDeux .deuxiemeRangee .carreRose {
+	width: 20px;
+	height: 20px;
+	background-color: lightcoral;
+}
+
+main.page-panier .principal .articleAchatDeux .deuxiemeRangee {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main.page-panier .infosAchat {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+main.page-panier .infosAchat button {
+	font-size: 20px;
+	background-color: green;
+	color: white;
+	width: 180px;
+	height: 40px;
+}
+
+/* pages principales des produits */
+main.page-produits .principal {
+	margin: 1rem auto;
+	width: 90vw;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+main.page-produits .principal .produit {
+	width: 33%;
+	min-width: 200px;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+main.page-produits .principal .produit .image {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+main.page-produits .principal .produit .image img {
+	width: 100%;
+}
+
+main.page-produits .principal .produit .nom {
+	text-align: center;
+}
+
+main.page-produits .principal .produit .prix {
+	text-align: center;
+	font-weight: bold;
+}
+
+main.page-produits .principal .produit .image .ventes {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: green;
+	color: white;
+	position: relative;
+	top: 25px;
+	right: 10px;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 22px;
+}
+
+/* Pied de page */
+footer {
+	background-color: var(--clr-fond-tertiaire);
+	color: var(--clr-texte-secondaire);
+	font-size: 0.8rem;
+	padding-top: 1.5rem;
+}
+
+footer h2 {
+	text-align: center;
+}
+
+footer div.contenu {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	text-align: center;
+
+	row-gap: 1rem;
+}
+
+footer div.contenu section {
+	display: flex;
+	flex-direction: column;
+}
+
+footer div.contenu section nav {
+	display: flex;
+	flex-direction: column;
+}
+
+footer .da {
+	font-size: 0.7rem;
+	text-align: center;
+	margin: 2rem;
+}
+
+@media (min-width: 1000px) {
+	/* Barre Logo */
+	.barre-logo {
+		flex-wrap: nowrap;
+	}
+
+	.barre-logo .logo img {
+		width: clamp(250px, 35vw, 350px);
+	}
+
+	.barre-logo .recherche {
+		min-width: 50%;
+	}
+
+	.barre-logo .panier {
+		order: 1;
+	}
+
+	.barre-logo .burger {
+		display: none;
+	}
+
+	/* Navigation principale */
+	nav.principale {
+		translate: 0;
+		display: flex;
+		position: relative;
+		top: initial;
+		left: initial;
+		bottom: initial;
+		background-color: initial;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		column-gap: 1.5rem;
+		padding: 0;
+	}
+
+	nav.principale .separateur {
+		width: 15px;
+		height: 15px;
+		border-radius: 25px;
+		background-color: var(--clr-fond-principale);
+		margin: 0 2rem;
+	}
+
+	nav.principale .menu-controle {
+		display: none;
+	}
+
+	/* Page d'accueil */
+	main.page-accueil .amorce h1 {
+		margin: auto 12vw;
+	}
+
+	main.page-accueil .principal {
+		margin: 1rem auto;
+		width: 70vw;
+	}
+
+	/* Page Produits (teeshirts, etc.) */
+	main.page-produits .amorce .controle {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		column-gap: 0.75rem;
+	}
+
+	main.page-produits .amorce .controle>div {
+		margin: 0 1rem;
+	}
+
+	/* Pied de page */
+	footer div.contenu {
+		flex-direction: row;
+		justify-content: center;
+		align-items: initial;
+		text-align: initial;
+		column-gap: 3rem;
+	}
+
+	/* Page du panier d'achat */
+	main.page-panier .principal, main.page-panier .infosAchat{
+		width: 50vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	main.page-panier .infosAchat {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}

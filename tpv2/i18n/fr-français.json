@@ -1,0 +1,62 @@
+{
+	"entete": {
+		"altLogo": "Accueil",
+		"placeholderRecherche": "Mots-clés de votre recherche",
+		"menuTeeshirts": "Teeshirts",
+		"menuCasquettes": "Casquettes",
+		"menuHoodies": "Hoodies",
+		"menuAide": "Aide",
+		"menuAPropos": "À propos de nous"
+	},
+	"pp": {
+		"achatsTitre": "Vos achats",
+		"navAchatsFaq": "Foire aux questions",
+		"navAchatsLivraison": "Livraison de votre colis",
+		"navAchatsConditions": "Conditions de vente",
+		"navAchatsConfidentialite": "Politique de confidentialité",
+		"aProposTitre": "À propos de teeTIM",
+		"aProposCompagnie": "La compagnie",
+		"aProposEquipe": "L'équipe",
+		"aProposEmplois": "Emplois",
+		"joindreTitre": "Nous joindre",
+		"joindreTelEtiquette": "Sans frais : ",
+		"joindreCourrielEtiquette": "Courriel : ",
+		"droits": "Tous droits réservés, teeTIM"
+	},
+	"index": {
+		"metaTitre": "fibre naturelle ... conception artificielle",
+		"metaDesc": "Page d'accueil du concepteur de vêtements 100% fait au Québec, conçus par les étudiants du TIM à l'aide de designs produits par intelligence artificielle, et fabriqués avec des fibres 100% naturelles et biologiques.",
+		"amorceTitre": "Teeshirts, hoodies, et casquettes fabriqués au Québec 💯",
+		"amorceSousTitre": "Conçus au TIM avec ❤️",
+		"amorceSousTitre2": "avec un p'tit peu d'aide de DALL-E 😉",
+		"para1": "Aujourd'hui, le teeshirt est un vêtement incontournable dans le garde-robe de chacun. Et à l’aire où la question environnementale se pose plus que jamais, on préfère les teeshirts fabriqués au Québec afin de réduire l'impact environnemental et mettre en avant l’artisanat local.",
+		"para2": "Teeshirt en V, col rond, ample ou ajusté, à manches courtes ou à manches longues pour les plus frileux, uni ou à motifs pour styliser une tenue… Le teeshirt est disponible dans une variété de couleurs, de styles et de motifs."
+	},
+	"catalogue": {
+		"filtreEtiquette": "Filtrer par : ",
+		"filtreTous": "Tous les produits"
+	},
+	"teeshirts": {
+		"metaTitre": "teeshirts 100% cotton bio",
+		"metaDesc": "Nos teeshirts sont faits avec les meilleurs matériaux, fabriqués au Québec, conçus par ...",
+		"titrePage": "Nos teeshirts"
+	},
+	"casquettes": {
+		"metaTitre": "casquettes stylées et confortable",
+		"metaDesc": "[IMPORTANT de bien définir la description de la page casquettes avant de déployer le site !!!]",
+		"titrePage": "Nos casquettes"
+	},
+	"hoodies": {
+		"metaTitre": "chandails à capuchon",
+		"metaDesc": "[IMPORTANT de bien définir la description de la page hoodies avant de déployer le site !!!]",
+		"titrePage": "Nos chandails à capuchon"
+	},
+	"panier": {
+		"metaTitre": "panier d'achat",
+		"metaDesc": "[IMPORTANT de bien définir la description de la page hoodies avant de déployer le site !!!]",
+		"titrePage": "Vos articles",
+		"nombreArticles": "(Nombre d'articles: 7)",
+		"total": "Prix total: 187.48$",
+		"confirmation": "Confirmer l'achat"
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"entete": {
+		"altLogo": "bienvenida",
+		"placeholderRecherche": "Palabras clave de tu búsqueda",
+		"menuTeeshirts": "Camisetas",
+		"menuCasquettes": "Tapas",
+		"menuHoodies": "Sudaderas con capucha",
+		"menuAide": "Ayuda",
+		"menuAPropos": "A propósito de nosotros"
+	},
+	"pp": {
+		"achatsTitre": "Tus compras",
+		"navAchatsFaq": "Preguntas frecuentes",
+		"navAchatsLivraison": "Entrega de su paquete",
+		"navAchatsConditions": "Condiciones de venta",
+		"navAchatsConfidentialite": "política de confidencialidad",
+		"aProposTitre": "Acerca de teeTIM",
+		"aProposCompagnie": "La compañía",
+		"aProposEquipe": "El equipo",
+		"aProposEmplois": "Trabajos",
+		"joindreTitre": "Contáctenos",
+		"joindreTelEtiquette": "Sin gastos : ",
+		"joindreCourrielEtiquette": "Correo electrónico : ",
+		"droits": "todos los derechos reservados, teeTIM"
+	},
+	"index": {
+		"metaTitre": "Fibra natural ... concepción artificial",
+		"metaDesc": "Página de inicio del diseñador de ropa 100% made in Quebec, diseñada por estudiantes de TIM utilizando diseños producidos por inteligencia artificial y confeccionados con fibras 100% naturales y orgánicas..",
+		"amorceTitre": "Camisetas, sudaderas y gorras fabricadas en Quebec 💯",
+		"amorceSousTitre": "Diseñado en TIM con ❤️",
+		"amorceSousTitre2": "con un poco de ayuda de DALL-E 😉",
+		"para1": "Hoy en día, la camiseta es una prenda imprescindible en el armario de todo el mundo. Y en una zona donde la cuestión medioambiental surge más que nunca, preferimos las camisetas hechas en Quebec para reducir el impacto medioambiental y resaltar la artesanía local.",
+		"para2": "Camiseta en forma de pico, cuello redondo, holgada o entallada, de manga corta o larga para las más frioleras, lisa o estampada para estilizar un outfit... La camiseta está disponible en varios colores, estilos y patrones."
+	},
+	"catalogue": {
+		"filtreEtiquette": "filtrado por : ",
+		"filtreTous": "Todos los productos"
+	},
+	"teeshirts": {
+		"metaTitre": "Camisetas 100% algodón orgánico",
+		"metaDesc": "Nuestras camisetas están confeccionadas con los mejores materiales, fabricadas en Quebec, diseñadas por ...",
+		"titrePage": "Nuestras camisetas"
+	},
+	"casquettes": {
+		"metaTitre": "gorras elegantes y cómodas",
+		"metaDesc": "[IMPORTANTE definir claramente la descripción de la página de mayúsculas antes de implementar el sitio !!!]",
+		"titrePage": "Nuestras gorras"
+	},
+	"hoodies": {
+		"metaTitre": "sudaderas con capucha",
+		"metaDesc": "[IMPORTANTE definir claramente la descripción de la página de sudaderas con capucha antes de implementar el sitio !!!]",
+		"titrePage": "Nuestras sudaderas con capucha"
+	},
+	"panier": {
+		"metaTitre": "carro de la compra",
+		"metaDesc": "[¡IMPORTANTE definir claramente la descripción de la página de sudaderas con capucha antes de implementar el sitio!]",
+		"titrePage": "tu carrito de la compra",
+		"nombreArticles": "(Articulos totales: 7)",
+		"total": "Total parcial: 187.48$",
+		"confirmation": "Orden completa"
+	}
+}

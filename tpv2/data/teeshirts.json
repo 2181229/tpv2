@@ -1,0 +1,258 @@
+{
+  "animaux" : {
+    "nom": {
+      "fr": "Animaux",
+      "en": "Animals",
+      "es": "Animales"
+    },
+    "produits": [
+      {
+        "id": "ts0001",
+        "nom" : {
+          "fr": "Cute comme un poisson tropical",
+          "en": "Pretty like a tropical fish",
+          "es": "Lindo como un pez tropical"
+        },
+        "prix": 25.95,
+        "dac": "2023-04-25",
+        "ventes": 34
+      },
+      {
+        "id": "ts0004",
+        "nom" : {
+          "fr": "Monstre douillet",
+          "en": "Fluffy monster",
+          "es": "Monstruo acogedor"
+        },
+        "prix": 25.95,
+        "dac": "2023-08-12",
+        "ventes": 123
+      },
+      {
+        "id": "ts0006",
+        "nom" : {
+          "fr": "Camarade basque",
+          "en": "Basque comrade",
+          "es": "camarada vasco"
+        },
+        "prix": 20.5,
+        "dac": "2023-02-27",
+        "ventes": 20
+      },
+      {
+        "id": "ts0007",
+        "nom" : {
+          "fr": "Chaton moteur",
+          "en": "Motor kitten",
+          "es": "gatito motorizado"
+        },
+        "prix": 27.5,
+        "dac": "2023-10-01",
+        "ventes": 12
+      },
+      {
+        "id": "ts0009",
+        "nom" : {
+          "fr": "Renardcoptère",
+          "en": "Foxcopter",
+          "es": "Foxcóptero"
+        },
+        "prix": 17.95,
+        "dac": "2023-05-04",
+        "ventes": 56
+      },
+      {
+        "id": "ts0013",
+        "nom" : {
+          "fr": "L'outre d'outremer",
+          "en": "The overseas wineskin",
+          "es": "El odre de ultramar"
+        },
+        "prix": 15.95,
+        "dac": "2022-10-11",
+        "ventes": 260
+      }
+    ]
+  },
+  "inusite": {
+    "nom": {
+      "fr": "Inusité",
+      "en": "Unusual",
+      "es": "Inusual"
+    },
+    "produits": [
+      {
+        "id": "ts0002",
+        "nom": {
+          "fr": "Fauteuil illégal",
+          "en": "Outlawed sofa",
+          "es": "Silla ilegal"
+        },
+        "prix": 20.5,
+        "dac": "2023-01-02",
+        "ventes": 6
+      },
+      {
+        "id": "ts0014",
+        "nom": {
+          "fr": "Cerveau volant",
+          "en": "Flying brain",
+          "es": "Cerebro volador"
+        },
+        "prix": 24.5,
+        "dac": "2022-08-08",
+        "ventes": 154
+      },
+      {
+        "id": "ts0019",
+        "nom": {
+          "fr": "Beau bébébot",
+          "en": "Beautiful babybot",
+          "es": "hermoso bebebot"
+        },
+        "prix": 26.5,
+        "dac": "2023-09-05",
+        "ventes": 20
+      },
+      {
+        "id": "ts0020",
+        "nom": {
+          "fr": "Grille-pain couac-couac",
+          "en": "Quack-quack toaster",
+          "es": "Tostadora cuacuac"
+        },
+        "prix": 20,
+        "dac": "2023-10-01",
+        "ventes": 3
+      }
+    ]
+  },
+  "sport": {
+    "nom": {
+      "fr": "Sport",
+      "en": "Sport",
+      "es": "Deporte"
+    },
+    "produits": [
+      {
+        "id": "ts0003",
+        "nom": {
+          "fr": "Un dunk dans l'univers",
+          "en": "A dunk in the universe",
+          "es": "Un mate en el universo"
+        },
+        "prix": 22.75,
+        "dac": "2023-01-02",
+        "ventes": 21
+      },
+      {
+        "id": "ts0015",
+        "nom": {
+          "fr": "Basket courbe",
+          "en": "Curved basketball",
+          "es": "Baloncesto curvo"
+        },
+        "prix": 19.75,
+        "dac": "2022-09-04",
+        "ventes": 158
+      },
+      {
+        "id": "ts0016",
+        "nom": {
+          "fr": "pizza, vino e calcio",
+          "en": "pizza, vino e calcio",
+          "es": "pizza, vino e calcio"
+        },
+        "prix": 19.75,
+        "dac": "2023-07-18",
+        "ventes": 40
+      }
+    ]
+  },
+  "nature": {
+    "nom": {
+      "fr": "Nature",
+      "en": "Nature",
+      "es": "Naturaleza"
+    },
+    "produits": [
+      {
+        "id": "ts0005",
+        "nom": {
+          "fr": "Bleu comme une orange",
+          "en": "Blue like an orange",
+          "es": "Azul como una naranja"
+        },
+        "prix": 25.95,
+        "dac": "2023-12-25",
+        "ventes": 325
+      },
+      {
+        "id": "ts0008",
+        "nom": {
+          "fr": "Et vogue le navire",
+          "en": "And sail the ship",
+          "es": "Y navega el barco"
+        },
+        "prix": 15.5,
+        "dac": "2022-12-21",
+        "ventes": 293
+      },
+      {
+        "id": "ts0010",
+        "nom": {
+          "fr": "Par une nuit d'été sur Mars",
+          "en": "On a summer night on Mars",
+          "es": "En una noche de verano en Marte"
+        },
+        "prix": 22,
+        "dac": "2023-01-30",
+        "ventes": 48
+      },
+      {
+        "id": "ts0011",
+        "nom": {
+          "fr": "Le déjeuner pointilliste",
+          "en": "The pointillist lunch",
+          "es": "El almuerzo puntillista"
+        },
+        "prix": 21,
+        "dac": "2023-02-21",
+        "ventes": 55
+      },
+      {
+        "id": "ts0012",
+        "nom": {
+          "fr": "Portrait au tournesol",
+          "en": "Sunflower portrait",
+          "es": "Retrato de girasol"
+        },
+        "prix": 29.99,
+        "dac": "2023-03-26",
+        "ventes": 24
+      },
+      {
+        "id": "ts0017",
+        "nom": {
+          "fr": "Réflexion dans le lac",
+          "en": "Reflection in the lake",
+          "es": "Reflejo en el lago"
+        },
+        "prix": 21.5,
+        "dac": "2023-07-10",
+        "ventes": 12
+      },
+      {
+        "id": "ts0018",
+        "nom": {
+          "fr": "Levé de soleil en automne",
+          "en": "sunrise in automn",
+          "es": "Amanecer en otoño"
+        },
+        "prix": 22.95,
+        "dac": "2023-08-28",
+        "ventes": 5
+      }
+    ]
+  }
+}

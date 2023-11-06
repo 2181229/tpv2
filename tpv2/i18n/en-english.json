@@ -1,0 +1,62 @@
+{
+	"entete": {
+		"altLogo": "Homepage",
+		"placeholderRecherche": "Search Keywords",
+		"menuTeeshirts": "Teeshirts",
+		"menuCasquettes": "Caps",
+		"menuHoodies": "Hoodies",
+		"menuAide": "Help",
+		"menuAPropos": "About Us"
+	},
+	"pp": {
+		"achatsTitre": "My Orders",
+		"navAchatsFaq": "Frequently Asked Questions",
+		"navAchatsLivraison": "Package Delivery",
+		"navAchatsConditions": "Sales Conditions",
+		"navAchatsConfidentialite": "Privacy Policy",
+		"aProposTitre": "About teeTIM",
+		"aProposCompagnie": "Our Company",
+		"aProposEquipe": "Team",
+		"aProposEmplois": "Jobs",
+		"joindreTitre": "Contact Us",
+		"joindreTelEtiquette": "Toll Free: ",
+		"joindreCourrielEtiquette": "Email: ",
+		"droits": "teeTIM - All Rights Reserved"
+	},
+	"index": {
+		"metaTitre": "natural fibers ... artificial design",
+		"metaDesc": "Home page of the designer of clothing 100% made in Quebec, designed by TIM students using designs produced by artificial intelligence, and made with 100% natural and organic fibers.",
+		"amorceTitre": "Teeshirts, hoodies and caps made 💯 Québec",
+		"amorceSousTitre": "Designed with ❤️ at TIM Maisonneuve",
+		"amorceSousTitre2": "with a little help from DALL-E 😉",
+		"para1": "Today, the t-shirt is an essential item of clothing in everyone's wardrobe. And in an area where the environmental question arises more than ever, we prefer t-shirts made in Quebec in order to reduce the environmental impact and highlight local craftsmanship.",
+		"para2": "V-shaped t-shirt, round neck, loose or fitted, short-sleeved or long-sleeved for those who are more chilly, plain or patterned to stylize an outfit... The t-shirt is available in a variety of colors, styles and patterns."
+	},
+	"catalogue": {
+		"filtreEtiquette": "Filter By: ",
+		"filtreTous": "All Products"
+	},
+	"teeshirts": {
+		"metaTitre": "100% organic cotton t-shirts",
+		"metaDesc": "Our t-shirts are made with the best materials, made in Quebec, designed by...",
+		"titrePage": "T-Shirts"
+	},
+	"casquettes": {
+		"metaTitre": "stylish and comfortable caps",
+		"metaDesc": "[IMPORTANT to clearly define the description of the caps page before deploying the site!!!]",
+		"titrePage": "Caps"
+	},
+	"hoodies": {
+		"metaTitre": "hoodies",
+		"metaDesc": "[IMPORTANT to clearly define the description of the hoodies page before deploying the site!!!]",
+		"titrePage": "Hoodies & Sweatshirts"
+	},
+	"panier": {
+		"metaTitre": "register",
+		"metaDesc": "[IMPORTANT to clearly define the description of the hoodies page before deploying the site!!!]",
+		"titrePage": "Your Shopping Cart",
+		"nombreArticles": "(Total items: 7)",
+		"total": "Sub-Total: 187.48$",
+		"confirmation": "Complete Order"
+	}
+}

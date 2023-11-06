@@ -1,0 +1,51 @@
+{
+    "aleatoire" : {
+      "nom": {
+        "fr": "Aléatoire",
+        "en": "Random",
+        "es": "Aleatorio"
+      }
+    },
+    "prix-asc" : {
+      "nom": {
+        "fr": "Prix / ascendant",
+        "en": "Price / ascending",
+        "es": "Precio / ascendente"
+      }
+    },
+    "prix-des" : {
+      "nom": {
+        "fr": "Prix / descendant",
+        "en": "Price / descending",
+        "es": "Precio / descendente"
+      }
+    },
+    "nom-asc" : {
+      "nom": {
+        "fr": "Nom / ascendant",
+        "en": "Name / ascending",
+        "es": "Apellido / ascendente"
+      }
+    },
+    "nom-des" : {
+      "nom": {
+        "fr": "Nom / descendant",
+        "en": "Name / descending",
+        "es": "Apellido / descendente"
+      }
+    },
+    "nouveaute" : {
+      "nom": {
+        "fr": "Nouveauté",
+        "en": "Novelty",
+        "es": "Novedad"
+      }
+    },
+    "meilleur" : {
+      "nom": {
+        "fr": "Meilleur vendeur",
+        "en": "Best seller",
+        "es": "vendedor mejor calificado"
+      }
+    }
+  }
